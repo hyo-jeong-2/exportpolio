@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반응형 포트폴리오 홈페이지</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- pc css -->
+  <link rel="stylesheet" href="pc.css" 
+    media="screen and (min-width:768px)">
+  <!-- 모바일 CSS -->
+  <link rel="stylesheet" href="mobile.css" 
+    media="screen and (max-width: 767px)"
+  >
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOD JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="#">
+        <span>Hong Gil Dong's</span>
+        Portfolio
+      </a>
+    </h1>
+    <p>UI/UX 디자인, 웹 퍼블리셔 홍길동의 홈페이지</p>
+  </header>
+
+  <section id="main">
+    <!-- 작품 article 반복 -->
+    <article>
+      <figure>
+        <img src="images/work01.jpg" alt="카페베네 홈페이지">
+      </figure>
+      <div class="text">
+        <div class="textBox">
+          <h3>Caffe Bene</h3>
+          <p class="description">카페베네 공식 홈페이지를<br>
+            벤치마킹을 통해<br>
+            리뉴얼하였습니다.</p>
+          <p class="date">2021.08.01 ~ 2021.08.06</p>
+          <p class="category"><b>팀프로젝트</b></p>
+          <a href="여기는 작품상세페이지 주소" class="linkBtn">자세히보기</a>
+        </div>
+      </div>  
+    </article>
+    <article 
+      data-aos="fade-right" 
+      data-aos-duration="2000"
+      data-aos-offset="400"
+    >
+      <figure>
+        <img src="images/work02.jpg" alt="모바일 초대장">
+      </figure>
+      <div class="text">
+        <div class="textBox">
+          <h3>Mobile Invitation</h3>
+          <p class="description">
+            모바일 청첩장 홈페이지를<br>
+            시안제작 부터 코딩까지<br> 
+            구현하였습니다.</p>
+          <p class="date">2021.08.01 ~ 2021.08.06</p>
+          <p class="category"><b>개인 프로젝트</b></p>
+          <a href="여기는 작품상세페이지 주소" class="linkBtn">자세히보기</a>
+        </div>
+      </div>  
+    </article>
+    <article 
+      data-aos="fade-left" 
+      data-aos-duration="2000"
+      data-aos-offset="400"
+    >
+      <figure>
+        <img src="images/work03.jpg" alt="반응형 웹">
+      </figure>
+      <div class="text">
+        <div class="textBox">
+          <h3>Responsive Web</h3>
+          <p class="description">
+            기업 홈페이지를<br>
+            벤치마킹을 통해<br>
+            반응형으로 리뉴얼하였습니다.</p>
+          <p class="date">2021.08.01 ~ 2021.08.06</p>
+          <p class="category"><b>개인 프로젝트</b></p>
+          <a href="여기는 작품상세페이지 주소" class="linkBtn">자세히보기</a>
+        </div>
+      </div>  
+    </article>
+    <article>
+      <figure>
+        <img src="images/work02.jpg" alt="모바일 초대장">
+      </figure>
+      <div class="text">
+        <div class="textBox">
+          <h3>Mobile Invitation</h3>
+          <p class="description">
+            모바일 청첩장 홈페이지를<br>
+            시안제작 부터 코딩까지<br> 
+            구현하였습니다.</p>
+          <p class="date">2021.08.01 ~ 2021.08.06</p>
+          <p class="category"><b>개인 프로젝트</b></p>
+          <a href="여기는 작품상세페이지 주소" class="linkBtn">자세히보기</a>
+        </div>
+      </div>  
+    </article>
+    <article>
+      <figure>
+        <img src="images/work03.jpg" alt="반응형 웹">
+      </figure>
+      <div class="text">
+        <div class="textBox">
+          <h3>Responsive Web</h3>
+          <p class="description">
+            기업 홈페이지를<br>
+            벤치마킹을 통해<br>
+            반응형으로 리뉴얼하였습니다.</p>
+          <p class="date">2021.08.01 ~ 2021.08.06</p>
+          <p class="category"><b>개인 프로젝트</b></p>
+          <a href="여기는 작품상세페이지 주소" class="linkBtn">자세히보기</a>
+        </div>
+      </div>  
+    </article>
+  </section>
+
+  <script>
+    // AOS 출격준비
+    AOS.init();
+  </script>
+</body>
+</html>
