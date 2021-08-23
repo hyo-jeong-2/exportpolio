@@ -1,0 +1,58 @@
+/* mobile.css */
+header {
+    border-bottom: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  header p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 0;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #main {
+    padding: 0;
+    text-align: center;
+  }
+  
+  #main article {
+    margin-bottom: 30px;
+  }
+  
+  #main article figure {
+    width: 100%;
+  }
+  
+  #main article figure img {
+    width: 100%;
+    display: block;
+  }
+  
+  #main article .text {
+    background: #F1F1F1;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #main article .text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
